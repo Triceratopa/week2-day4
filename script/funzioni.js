@@ -70,7 +70,7 @@ console.log (epify ('Giacomo') + " buongiorno" )
 */
 
 const check3and7 = function(n1){
-    if( n1%3 || n1%7){
+    if( n1%3 === 0 || n1%7 === 0){
         return 'true'
     } else{
         return 'false'
